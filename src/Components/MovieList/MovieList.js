@@ -3,7 +3,9 @@ import MovieCard from "../MovieCard/MovieCard";
 
 const MovieList = ({ movies, inputSearch, rating }) => {
 	return (
-		<div className='movie-list'>
+		<div
+			className='movie-list'
+			style={{ display: "flex", justifyContent: "space-around" }}>
 			{movies
 				.filter(
 					(movie) =>

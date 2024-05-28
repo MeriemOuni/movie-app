@@ -20,7 +20,7 @@ const MovieCard = ({ movie }) => {
 							</a>
 						</Button> */}
 						<Link to={`/movie/${movie.id}`} state={movie}>
-							<Button variant='info'>Description</Button>
+							<Button variant='info'>Description</Button>”{" "}
 						</Link>
 					</div>
 				</Card.Body>
